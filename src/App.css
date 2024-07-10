@@ -1,0 +1,48 @@
+body{
+margin: 0 ;
+}
+
+.div{
+    display: flex;
+    margin-left: 0% !important;
+    padding-left: 0% !important;
+}
+
+/* --------------sidebar--------------- */
+
+#sidebar{
+    background-color: rgb(234, 219, 234);
+   text-align: center;
+   width:9%;
+
+   h3{
+    cursor: pointer;
+   }
+}
+
+
+
+
+
+
+
+/* --------------Navbar------------- */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap:60%;
+    padding-left:3%;
+    padding-top: 1%;
+    width:100%;
+    
+}
+
+.navbar h2{
+    align-items: right;
+}
+.navbarButton{
+   display: flex;
+   font-size: 49px;
+   cursor: pointer;
+  
+}
